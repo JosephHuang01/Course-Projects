@@ -41,3 +41,13 @@ The script will:
 - Column name inconsistency: the data uses readmitted, but some model calls reference readmission. Align these before running.
 - Neural net section converts the target to 0/1; ensure factor levels match when creating the final class predictions.
 - The Excel file is large; convert it to CSV for faster loading with read.csv.
+
+## YouTube Video Mock Downloader
+A collection of introductory Python programs submitted as programming quizzes.
+
+### Programs
+- GA1PQ1.py: Takes two integers from the user and prints their sum.
+- GA1PQ2.py: Simple password confirmation – asks the user to enter a password twice and checks whether they match.
+- GA1PQ3.py: Calculates the monthly interest amount given a loan principal and annual interest rate.
+- GA2PQ1.py: Advanced password validator. Enforces length (10–100), uniqueness (≥5 distinct characters), and character class requirements (at least one lowercase, one uppercase, and one special character). Confirms the password before “logging in.”
+- GA2PQ2.py: Interactive menu-driven text utility that can: remove punctuation, count word frequency, check whether a word exists, replace a word, or quit.
