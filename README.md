@@ -1,11 +1,11 @@
 # Course-Projects
-# Hospital Readmissions Prediction Project
+## Hospital Readmissions Prediction Project
 A machine learning project that predicts whether a diabetic patient will be readmitted to the hospital using several supervised learning models in R.
 
-# Project Overview
+### Project Overview
 This project analyzes hospital patient data to predict 30-day readmission risk (readmitted: yes/no). It applies preprocessing, train/test splitting, and four classification models, then evaluates them with confusion matrices.
 
-# Data
+### Data
 - Source file: hospital_readmissions.csv (or the provided Excel version)
 - Target variable: readmitted (binary: yes/no)
 
@@ -15,7 +15,7 @@ Features include:
 - Clinical: medical_specialty, diag_1, diag_2, diag_3
 - Lab/medication: glucose_test, A1Ctest, change, diabetes_med
 
-# Models Implemented
+### Models Implemented
 - Logistic Regression (glm with binomial family)
 - Decision Tree (rpart + visualization with rpart.plot)
 - Neural Network (neuralnet with 5 hidden nodes)
@@ -23,10 +23,10 @@ Features include:
 
 All models are trained on a 60% training set and evaluated on the held-out 40% test set using caret::confusionMatrix.
 
-# Requirements
+### Requirements
 Rinstall.packages(c("caret", "tidyverse", "neuralnet", "randomForest", "rpart", "rpart.plot"))
 
-# How to Run
+### How to Run
 - Place hospital_readmissions.csv in the working directory (or convert the Excel file to CSV).
 - Open and source Hospital Readmissions Project.R.
 
