@@ -37,7 +37,7 @@ The script will:
 - Print confusion matrices for each
 - Plot the decision tree
 
-# Notes / Known Issues in the Script
+### Notes / Known Issues in the Script
 - Column name inconsistency: the data uses readmitted, but some model calls reference readmission. Align these before running.
 - Neural net section converts the target to 0/1; ensure factor levels match when creating the final class predictions.
 - The Excel file is large; convert it to CSV for faster loading with read.csv.
